@@ -3,6 +3,7 @@ var transformTools = require( 'browserify-transform-tools' );
 // Taken from Ecma-262, section 7.5.3
 // https://msdn.microsoft.com/en-us/library/mt227924(v=vs.85).aspx
 var illegalNames = [
+	"prototype",
 	"abstract",
 	"arguments",
 	"case",
