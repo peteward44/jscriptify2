@@ -1,0 +1,33 @@
+{
+  "name": "jscriptify",
+  "version": "0.1.0",
+  "description": "Browserify plugin to (attempt) to support the antiquated Microsoft JScript ASP engine",
+  "main": "index.js",
+  "dependencies": {
+    "browserify-transform-tools": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peteward44/jscriptify.git"
+  },
+  "keywords": [
+    "browserify-plugin",
+    "browserify",
+    "plugin",
+    "jscript"
+  ],
+  "author": "Pete Ward <peteward44@gmail.com>",
+  "license": "MIT",
+  "files": [
+	"index.js",
+	"README.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/peteward44/jscriptify/issues"
+  },
+  "homepage": "https://github.com/peteward44/jscriptify#readme"
+}
