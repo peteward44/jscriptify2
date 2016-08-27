@@ -1,5 +1,5 @@
-# jscriptify
-Browserify plugin to (attempt) to support the antiquated Microsoft JScript ASP engine
+# jscriptify2
+Browserify plugin to (attempt) to support the antiquated Microsoft JScript classic ASP engine
 
 This doesn't guarantee compatibility with JScript, but might give you a better chance!
 
@@ -12,7 +12,7 @@ Note: The work done by this transform may be undone by uglifiers. Try to make it
 ## Executing directly
 You don't have to use browserify if you don't want to, just use
 ```
-var jscriptify = require( 'jscriptify' );
+var jscriptify = require( 'jscriptify2' );
 var mycode = "var g = 3;";
 jscriptify.exec( mycode, function( err, transformedCode ) {
 	// transformedCode now contains your new code

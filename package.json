@@ -1,7 +1,7 @@
 {
-  "name": "jscriptify",
+  "name": "jscriptify2",
   "version": "0.1.0",
-  "description": "Browserify plugin to (attempt) to support the antiquated Microsoft JScript ASP engine",
+  "description": "Browserify plugin to (attempt) to support the antiquated Microsoft JScript classic ASP engine",
   "main": "index.js",
   "dependencies": {
     "browserify-transform-tools": "^1.6.0"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peteward44/jscriptify.git"
+    "url": "git+https://github.com/peteward44/jscriptify2.git"
   },
   "keywords": [
     "browserify-plugin",
@@ -27,7 +27,7 @@
 	"README.md"
   ],
   "bugs": {
-    "url": "https://github.com/peteward44/jscriptify/issues"
+    "url": "https://github.com/peteward44/jscriptify2/issues"
   },
-  "homepage": "https://github.com/peteward44/jscriptify#readme"
+  "homepage": "https://github.com/peteward44/jscriptify2#readme"
 }
