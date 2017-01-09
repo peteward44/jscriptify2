@@ -76,7 +76,7 @@ function process( node, transformOptions, done ) {
 		if ( typeof node.property === "object" && typeof node.property.name === "string" && typeof node.property.type === "string" && node.property.type === "Identifier" ) {
 			if ( illegalNames.indexOf( node.property.name ) >= 0 ) {
 				var code = node.source();
-				var newCode = code.replace( /\..*$/, "['" + node.property.name + "']" );
+				var newCode = code.replace( /\.[^\.]*$/, "['" + node.property.name + "']" );
 				node.update( newCode );
 			}
 		}

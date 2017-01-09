@@ -38,6 +38,10 @@ describe( "jscriptify", function() {
 	it( "Replaces global object with function to 'get' global this", function( done ) {
 		assertTransform( "global.js", "global_Correct.js", done );
 	} );
+
+	it( "Replaces nested object reference correctly", function( done ) {
+		assertTransform( "nested.js", "nested_Correct.js", done );
+	} );
 	
 	it( "jscriptify.exec() method works", function( done ) {
 		var content = "global.value = 'string'";
