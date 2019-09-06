@@ -1,4 +1,7 @@
 # jscriptify2
+
+***This project is no longer maintained***
+
 Browserify plugin to (attempt) to support the antiquated Microsoft JScript classic ASP engine
 
 This doesn't guarantee compatibility with JScript, but might give you a better chance!

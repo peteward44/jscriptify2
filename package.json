@@ -1,6 +1,6 @@
 {
   "name": "jscriptify2",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Browserify plugin to (attempt) to support the antiquated Microsoft JScript classic ASP engine",
   "main": "index.js",
   "dependencies": {
